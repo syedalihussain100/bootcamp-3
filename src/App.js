@@ -1,11 +1,11 @@
 import React from 'react';
-
+import Dam from "./dam";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      world     
+      <Dam name = "Syed Muhemin Ali" place = "Karachi" assignment = "Completed"/>  
     </div>
   );
 }
